@@ -1,0 +1,6 @@
+<?php
+
+$booksJson = file_get_contents('books.json');
+
+var_dump($booksJson);
+
